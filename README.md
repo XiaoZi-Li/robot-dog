@@ -2,7 +2,7 @@
 
 > An on-device embodied-intelligence quadruped robot built on RDK X5 + ROS2 Humble, fusing binocular stereo vision, BPU on-device inference, offline voice interaction and dynamic gait control. The full perception→decision→action loop runs on a single board with **zero cloud dependency**.
 
-> 📖 **中文版**: [README.md](./README.md)
+> 📖 **中文版**: [README_cn.md](./README_cn.md)
 > 📘 **Full Chinese docs**: [PuppyPi_开源文档.md](./PuppyPi_开源文档.md)
 
 ---
@@ -303,5 +303,3 @@ BPU model files (`.hbm`/`.bin`) are configured per Horizon TROS official docs.
 ---
 
 > Doc version: 2026-07-09 | Based on RDK X5 + TROS 2.5.x
-#   r o b o t - d o g  
- 

@@ -2,7 +2,7 @@
 
 > 基于 RDK X5 + ROS2 Humble 的端侧具身智能四足机器狗，融合双目立体视觉、BPU 端侧推理、离线语音交互与动态步态控制。全链路「感知—决策—执行」在单块板子上完成，零云端依赖。
 
-> 📖 **English version**: [README_EN.md](./README_EN.md)
+> 📖 **English version**: [README.md](./README.md)
 > 📘 **详细中文文档**: [PuppyPi_开源文档.md](./PuppyPi_开源文档.md)
 
 ---
