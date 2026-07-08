@@ -303,3 +303,5 @@ BPU model files (`.hbm`/`.bin`) are configured per Horizon TROS official docs.
 ---
 
 > Doc version: 2026-07-09 | Based on RDK X5 + TROS 2.5.x
+#   r o b o t - d o g  
+ 
