@@ -1,0 +1,44 @@
+[3.858s] Invoking command in '/app/puppy_ws/src/puppy_brain': PYTHONPATH=/app/puppy_ws/build/puppy_brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/puppy_brain build --build-base /app/puppy_ws/build/puppy_brain/build install --record /app/puppy_ws/build/puppy_brain/install.log --single-version-externally-managed install_data
+[4.832s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[4.833s]   warnings.warn(msg)
+[5.374s] running egg_info
+[5.460s] writing ../../build/puppy_brain/puppy_brain.egg-info/PKG-INFO
+[5.462s] writing dependency_links to ../../build/puppy_brain/puppy_brain.egg-info/dependency_links.txt
+[5.464s] writing entry points to ../../build/puppy_brain/puppy_brain.egg-info/entry_points.txt
+[5.465s] writing requirements to ../../build/puppy_brain/puppy_brain.egg-info/requires.txt
+[5.466s] writing top-level names to ../../build/puppy_brain/puppy_brain.egg-info/top_level.txt
+[5.655s] reading manifest file '../../build/puppy_brain/puppy_brain.egg-info/SOURCES.txt'
+[5.667s] writing manifest file '../../build/puppy_brain/puppy_brain.egg-info/SOURCES.txt'
+[5.668s] running build
+[5.668s] running build_py
+[5.670s] copying puppy_brain/gesture_adapter_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+[5.671s] copying puppy_brain/imu_node_ros2.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+[5.672s] copying puppy_brain/ros_udp_bridge.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+[5.673s] copying puppy_brain/debug_preview_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+[5.675s] copying puppy_brain/ai_vision_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+[5.676s] copying puppy_brain/perception_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+[5.677s] copying puppy_brain/__init__.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+[5.678s] copying puppy_brain/decision_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+[5.680s] running install
+[5.714s] running install_lib
+[5.807s] running install_data
+[5.808s] copying resource/puppy_brain -> /app/puppy_ws/install/puppy_brain/share/ament_index/resource_index/packages
+[5.809s] copying package.xml -> /app/puppy_ws/install/puppy_brain/share/puppy_brain
+[5.811s] copying launch/follow_only.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch
+[5.812s] copying launch/gesture_only.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch
+[5.812s] copying launch/full_system.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch
+[5.813s] copying launch/gesture_control_test.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch
+[5.814s] copying launch/gesture_official_test.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch
+[5.815s] running install_egg_info
+[5.912s] removing '/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain-0.0.0-py3.10.egg-info' (and everything under it)
+[5.914s] Copying ../../build/puppy_brain/puppy_brain.egg-info to /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain-0.0.0-py3.10.egg-info
+[5.919s] running install_scripts
+[6.103s] Installing debug_preview_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[6.104s] Installing decision_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[6.105s] Installing decision_node_gesture_test script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[6.106s] Installing gesture_adapter_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[6.107s] Installing imu_node_ros2 script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[6.108s] Installing perception_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[6.109s] Installing ros_udp_bridge script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[6.113s] writing list of installed files to '/app/puppy_ws/build/puppy_brain/install.log'
+[6.320s] Invoked command in '/app/puppy_ws/src/puppy_brain' returned '0': PYTHONPATH=/app/puppy_ws/build/puppy_brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/puppy_brain build --build-base /app/puppy_ws/build/puppy_brain/build install --record /app/puppy_ws/build/puppy_brain/install.log --single-version-externally-managed install_data

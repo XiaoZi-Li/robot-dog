@@ -1,0 +1,30 @@
+{
+  "_doc": "手势名 → 机器狗动作映射。可被 UI 编辑后, 重启节点生效。",
+  "_comment_supported_gestures": {
+    "thumb_up": "👍 点赞 (模型值 4, gesture_adapter 输出 thumb_up 时命中)",
+    "two_fingers_cross": "✌ 食指+中指交叉弯曲 (21 关键点规则, 归一化距离 < 0.04)",
+    "thumb_left": "👈 握拳 + 拇指向画面左伸 (21 关键点规则)",
+    "thumb_right": "👉 握拳 + 拇指向画面右伸 (21 关键点规则)",
+    "palm_forward": "🖐 手掌张开 + 手腕在画面下半 (21 关键点规则)",
+    "palm_back": "🖐 手掌张开 + 手腕在画面上半 (21 关键点规则)"
+  },
+  "_comment_supported_actions": {
+    "sit": "坐下",
+    "crouch": "趴下",
+    "walk": "前进",
+    "backward": "后退",
+    "turn_left": "左转",
+    "turn_right": "右转",
+    "stop": "停止",
+    "stand": "站立",
+    "wave": "招手",
+    "bow": "鞠躬",
+    "nod": "点头"
+  },
+  "thumb_up": "sit",
+  "two_fingers_cross": "crouch",
+  "thumb_left": "turn_left",
+  "thumb_right": "turn_right",
+  "palm_forward": "walk",
+  "palm_back": "backward"
+}

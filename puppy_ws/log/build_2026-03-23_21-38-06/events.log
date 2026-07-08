@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.001411] (puppy_brain) JobQueued: {'identifier': 'puppy_brain', 'dependencies': OrderedDict()}
+[0.002782] (puppy_brain) JobStarted: {'identifier': 'puppy_brain'}
+[0.098750] (-) TimerEvent: {}
+[0.199590] (-) TimerEvent: {}
+[0.300408] (-) TimerEvent: {}
+[0.401233] (-) TimerEvent: {}
+[0.502090] (-) TimerEvent: {}
+[0.602922] (-) TimerEvent: {}
+[0.703768] (-) TimerEvent: {}
+[0.804605] (-) TimerEvent: {}
+[0.905422] (-) TimerEvent: {}
+[1.006242] (-) TimerEvent: {}
+[1.107082] (-) TimerEvent: {}
+[1.207987] (-) TimerEvent: {}
+[1.308954] (-) TimerEvent: {}
+[1.409857] (-) TimerEvent: {}
+[1.510751] (-) TimerEvent: {}
+[1.611586] (-) TimerEvent: {}
+[1.712484] (-) TimerEvent: {}
+[1.813378] (-) TimerEvent: {}
+[1.914220] (-) TimerEvent: {}
+[2.015061] (-) TimerEvent: {}
+[2.115948] (-) TimerEvent: {}
+[2.216817] (-) TimerEvent: {}
+[2.317701] (-) TimerEvent: {}
+[2.418576] (-) TimerEvent: {}
+[2.519425] (-) TimerEvent: {}
+[2.620259] (-) TimerEvent: {}
+[2.721102] (-) TimerEvent: {}
+[2.822032] (-) TimerEvent: {}
+[2.922915] (-) TimerEvent: {}
+[3.023729] (-) TimerEvent: {}
+[3.124563] (-) TimerEvent: {}
+[3.225372] (-) TimerEvent: {}
+[3.326249] (-) TimerEvent: {}
+[3.427122] (-) TimerEvent: {}
+[3.527984] (-) TimerEvent: {}
+[3.628862] (-) TimerEvent: {}
+[3.729819] (-) TimerEvent: {}
+[3.822809] (puppy_brain) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/puppy_brain', 'build', '--build-base', '/app/puppy_ws/build/puppy_brain/build', 'install', '--record', '/app/puppy_ws/build/puppy_brain/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/app/puppy_ws/src/puppy_brain', 'env': {'LANGUAGE': 'en_US.UTF-8', 'USER': 'sunrise', 'SSH_CLIENT': '172.20.10.3 59578 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/sunrise/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:', 'BROWSER': '/home/sunrise/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/sunrise', 'OLDPWD': '/app/puppy_ws', 'TERM_PROGRAM_VERSION': '1.112.0', 'NVM_NODEJS_ORG_MIRROR': 'https://npmmirror.com/mirrors/node', 'NVM_BIN': '/home/sunrise/.nvm/versions/node/v24.14.0/bin', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-fd0964a6-f7df-4696-afe9-211900a17b46.sock', 'NVM_INC': '/home/sunrise/.nvm/versions/node/v24.14.0/include/node', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sunrise/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sunrise/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/sunrise/.nvm', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/app/puppy_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sunrise', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/sunrise/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/bin/remote-cli:/opt/tros/humble/bin:/opt/ros/humble/bin:/home/sunrise/.nvm/versions/node/v24.14.0/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/opt/tros/humble/lib/hobot_shm/config/shm_fastdds.xml', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2f47a8ef99.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/app/puppy_ws/install/puppy_brain:/opt/tros/humble:/opt/ros/humble', 'SHELL': '/bin/bash', 'RMW_FASTRTPS_USE_QOS_FROM_XML': '1', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/app/puppy_ws/build/puppy_brain', 'SSH_CONNECTION': '172.20.10.3 59578 172.20.10.2 22', 'NVM_CD_FLAGS': '', 'PYTHONPATH': '/app/puppy_ws/build/puppy_brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages:/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.831966] (-) TimerEvent: {}
+[3.933221] (-) TimerEvent: {}
+[4.034078] (-) TimerEvent: {}
+[4.134907] (-) TimerEvent: {}
+[4.235725] (-) TimerEvent: {}
+[4.336543] (-) TimerEvent: {}
+[4.437377] (-) TimerEvent: {}
+[4.538238] (-) TimerEvent: {}
+[4.639077] (-) TimerEvent: {}
+[4.739935] (-) TimerEvent: {}
+[4.793171] (puppy_brain) StderrLine: {'line': b"/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[4.794434] (puppy_brain) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[4.840105] (-) TimerEvent: {}
+[4.940916] (-) TimerEvent: {}
+[5.041832] (-) TimerEvent: {}
+[5.142718] (-) TimerEvent: {}
+[5.243561] (-) TimerEvent: {}
+[5.333265] (puppy_brain) StdoutLine: {'line': b'running egg_info\n'}
+[5.343724] (-) TimerEvent: {}
+[5.419335] (puppy_brain) StdoutLine: {'line': b'writing ../../build/puppy_brain/puppy_brain.egg-info/PKG-INFO\n'}
+[5.422129] (puppy_brain) StdoutLine: {'line': b'writing dependency_links to ../../build/puppy_brain/puppy_brain.egg-info/dependency_links.txt\n'}
+[5.424067] (puppy_brain) StdoutLine: {'line': b'writing entry points to ../../build/puppy_brain/puppy_brain.egg-info/entry_points.txt\n'}
+[5.425362] (puppy_brain) StdoutLine: {'line': b'writing requirements to ../../build/puppy_brain/puppy_brain.egg-info/requires.txt\n'}
+[5.426219] (puppy_brain) StdoutLine: {'line': b'writing top-level names to ../../build/puppy_brain/puppy_brain.egg-info/top_level.txt\n'}
+[5.443864] (-) TimerEvent: {}
+[5.544738] (-) TimerEvent: {}
+[5.613396] (puppy_brain) StdoutLine: {'line': b"reading manifest file '../../build/puppy_brain/puppy_brain.egg-info/SOURCES.txt'\n"}
+[5.624538] (puppy_brain) StdoutLine: {'line': b"writing manifest file '../../build/puppy_brain/puppy_brain.egg-info/SOURCES.txt'\n"}
+[5.625524] (puppy_brain) StdoutLine: {'line': b'running build\n'}
+[5.626223] (puppy_brain) StdoutLine: {'line': b'running build_py\n'}
+[5.627716] (puppy_brain) StdoutLine: {'line': b'copying puppy_brain/gesture_adapter_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain\n'}
+[5.629166] (puppy_brain) StdoutLine: {'line': b'copying puppy_brain/imu_node_ros2.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain\n'}
+[5.630481] (puppy_brain) StdoutLine: {'line': b'copying puppy_brain/ros_udp_bridge.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain\n'}
+[5.631718] (puppy_brain) StdoutLine: {'line': b'copying puppy_brain/debug_preview_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain\n'}
+[5.633072] (puppy_brain) StdoutLine: {'line': b'copying puppy_brain/ai_vision_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain\n'}
+[5.634400] (puppy_brain) StdoutLine: {'line': b'copying puppy_brain/perception_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain\n'}
+[5.635649] (puppy_brain) StdoutLine: {'line': b'copying puppy_brain/__init__.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain\n'}
+[5.636657] (puppy_brain) StdoutLine: {'line': b'copying puppy_brain/decision_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain\n'}
+[5.639201] (puppy_brain) StdoutLine: {'line': b'running install\n'}
+[5.644869] (-) TimerEvent: {}
+[5.674089] (puppy_brain) StdoutLine: {'line': b'running install_lib\n'}
+[5.745076] (-) TimerEvent: {}
+[5.762809] (puppy_brain) StdoutLine: {'line': b'copying /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain/decision_node.py -> /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain\n'}
+[5.767232] (puppy_brain) StdoutLine: {'line': b'byte-compiling /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain/decision_node.py to decision_node.cpython-310.pyc\n'}
+[5.781406] (puppy_brain) StdoutLine: {'line': b'running install_data\n'}
+[5.783208] (puppy_brain) StdoutLine: {'line': b'copying resource/puppy_brain -> /app/puppy_ws/install/puppy_brain/share/ament_index/resource_index/packages\n'}
+[5.784606] (puppy_brain) StdoutLine: {'line': b'copying package.xml -> /app/puppy_ws/install/puppy_brain/share/puppy_brain\n'}
+[5.786412] (puppy_brain) StdoutLine: {'line': b'copying launch/follow_only.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch\n'}
+[5.787872] (puppy_brain) StdoutLine: {'line': b'copying launch/gesture_only.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch\n'}
+[5.788964] (puppy_brain) StdoutLine: {'line': b'copying launch/full_system.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch\n'}
+[5.790028] (puppy_brain) StdoutLine: {'line': b'copying launch/gesture_control_test.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch\n'}
+[5.791040] (puppy_brain) StdoutLine: {'line': b'copying launch/gesture_official_test.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch\n'}
+[5.791811] (puppy_brain) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.845258] (-) TimerEvent: {}
+[5.886286] (puppy_brain) StdoutLine: {'line': b"removing '/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.888109] (puppy_brain) StdoutLine: {'line': b'Copying ../../build/puppy_brain/puppy_brain.egg-info to /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain-0.0.0-py3.10.egg-info\n'}
+[5.893184] (puppy_brain) StdoutLine: {'line': b'running install_scripts\n'}
+[5.945436] (-) TimerEvent: {}
+[6.046334] (-) TimerEvent: {}
+[6.079622] (puppy_brain) StdoutLine: {'line': b'Installing debug_preview_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain\n'}
+[6.080737] (puppy_brain) StdoutLine: {'line': b'Installing decision_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain\n'}
+[6.081689] (puppy_brain) StdoutLine: {'line': b'Installing decision_node_gesture_test script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain\n'}
+[6.082806] (puppy_brain) StdoutLine: {'line': b'Installing gesture_adapter_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain\n'}
+[6.083891] (puppy_brain) StdoutLine: {'line': b'Installing imu_node_ros2 script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain\n'}
+[6.084890] (puppy_brain) StdoutLine: {'line': b'Installing perception_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain\n'}
+[6.085819] (puppy_brain) StdoutLine: {'line': b'Installing ros_udp_bridge script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain\n'}
+[6.089593] (puppy_brain) StdoutLine: {'line': b"writing list of installed files to '/app/puppy_ws/build/puppy_brain/install.log'\n"}
+[6.146568] (-) TimerEvent: {}
+[6.247633] (-) TimerEvent: {}
+[6.303407] (puppy_brain) CommandEnded: {'returncode': 0}
+[6.348013] (-) TimerEvent: {}
+[6.390593] (puppy_brain) JobEnded: {'identifier': 'puppy_brain', 'rc': 0}
+[6.394109] (-) EventReactorShutdown: {}

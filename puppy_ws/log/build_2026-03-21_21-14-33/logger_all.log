@@ -1,0 +1,129 @@
+[1.058s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'puppy_brain']
+[1.059s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['puppy_brain'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9c5a3400>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9c5a2ec0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9c5a2ec0>>)
+[1.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.449s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/app/puppy_ws'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.618s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.619s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.620s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/puppy_brain) by extensions ['ignore', 'ignore_ament_install']
+[1.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/puppy_brain) by extension 'ignore'
+[1.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/puppy_brain) by extension 'ignore_ament_install'
+[1.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/puppy_brain) by extensions ['colcon_pkg']
+[1.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/puppy_brain) by extension 'colcon_pkg'
+[1.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/puppy_brain) by extensions ['colcon_meta']
+[1.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/puppy_brain) by extension 'colcon_meta'
+[1.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/puppy_brain) by extensions ['ros']
+[1.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/puppy_brain) by extension 'ros'
+[1.651s] DEBUG:colcon.colcon_core.package_identification:Package 'src/puppy_brain' with type 'ros.ament_python' and name 'puppy_brain'
+[1.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.654s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.843s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.843s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.861s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /app/puppy_ws/install
+[1.865s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 58 installed packages in /opt/tros/humble
+[1.874s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 183 installed packages in /opt/ros/humble
+[1.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.195s] Level 5:colcon.colcon_core.verb:set package 'puppy_brain' build argument 'cmake_args' from command line to 'None'
+[2.196s] Level 5:colcon.colcon_core.verb:set package 'puppy_brain' build argument 'cmake_target' from command line to 'None'
+[2.197s] Level 5:colcon.colcon_core.verb:set package 'puppy_brain' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.197s] Level 5:colcon.colcon_core.verb:set package 'puppy_brain' build argument 'cmake_clean_cache' from command line to 'False'
+[2.198s] Level 5:colcon.colcon_core.verb:set package 'puppy_brain' build argument 'cmake_clean_first' from command line to 'False'
+[2.198s] Level 5:colcon.colcon_core.verb:set package 'puppy_brain' build argument 'cmake_force_configure' from command line to 'False'
+[2.199s] Level 5:colcon.colcon_core.verb:set package 'puppy_brain' build argument 'ament_cmake_args' from command line to 'None'
+[2.199s] Level 5:colcon.colcon_core.verb:set package 'puppy_brain' build argument 'catkin_cmake_args' from command line to 'None'
+[2.199s] Level 5:colcon.colcon_core.verb:set package 'puppy_brain' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.200s] DEBUG:colcon.colcon_core.verb:Building package 'puppy_brain' with the following arguments: {'ament_cmake_args': None, 'build_base': '/app/puppy_ws/build/puppy_brain', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/app/puppy_ws/install/puppy_brain', 'merge_install': False, 'path': '/app/puppy_ws/src/puppy_brain', 'symlink_install': False, 'test_result_base': None}
+[2.202s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.208s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.210s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/app/puppy_ws/src/puppy_brain' with build type 'ament_python'
+[2.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('puppy_brain', 'ament_prefix_path')
+[2.232s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/puppy_ws/install/puppy_brain/share/puppy_brain/hook/ament_prefix_path.ps1'
+[2.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/puppy_ws/install/puppy_brain/share/puppy_brain/hook/ament_prefix_path.dsv'
+[2.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/puppy_ws/install/puppy_brain/share/puppy_brain/hook/ament_prefix_path.sh'
+[2.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.256s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.362s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/app/puppy_ws/src/puppy_brain'
+[4.364s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.365s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/puppy_ws/src/puppy_brain': PYTHONPATH=/app/puppy_ws/build/puppy_brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/puppy_brain build --build-base /app/puppy_ws/build/puppy_brain/build install --record /app/puppy_ws/build/puppy_brain/install.log --single-version-externally-managed install_data
+[12.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/puppy_ws/src/puppy_brain' returned '0': PYTHONPATH=/app/puppy_ws/build/puppy_brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/puppy_brain build --build-base /app/puppy_ws/build/puppy_brain/build install --record /app/puppy_ws/build/puppy_brain/install.log --single-version-externally-managed install_data
+[12.670s] Level 1:colcon.colcon_core.environment:checking '/app/puppy_ws/install/puppy_brain' for CMake module files
+[12.673s] Level 1:colcon.colcon_core.environment:checking '/app/puppy_ws/install/puppy_brain' for CMake config files
+[12.678s] Level 1:colcon.colcon_core.environment:checking '/app/puppy_ws/install/puppy_brain/lib'
+[12.683s] Level 1:colcon.colcon_core.environment:checking '/app/puppy_ws/install/puppy_brain/bin'
+[12.685s] Level 1:colcon.colcon_core.environment:checking '/app/puppy_ws/install/puppy_brain/lib/pkgconfig/puppy_brain.pc'
+[12.688s] Level 1:colcon.colcon_core.environment:checking '/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages'
+[12.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('puppy_brain', 'pythonpath')
+[12.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/puppy_ws/install/puppy_brain/share/puppy_brain/hook/pythonpath.ps1'
+[12.697s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/puppy_ws/install/puppy_brain/share/puppy_brain/hook/pythonpath.dsv'
+[12.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/puppy_ws/install/puppy_brain/share/puppy_brain/hook/pythonpath.sh'
+[12.708s] Level 1:colcon.colcon_core.environment:checking '/app/puppy_ws/install/puppy_brain/bin'
+[12.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(puppy_brain)
+[12.711s] INFO:colcon.colcon_core.shell:Creating package script '/app/puppy_ws/install/puppy_brain/share/puppy_brain/package.ps1'
+[12.724s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/puppy_ws/install/puppy_brain/share/puppy_brain/package.dsv'
+[12.729s] INFO:colcon.colcon_core.shell:Creating package script '/app/puppy_ws/install/puppy_brain/share/puppy_brain/package.sh'
+[12.736s] INFO:colcon.colcon_core.shell:Creating package script '/app/puppy_ws/install/puppy_brain/share/puppy_brain/package.bash'
+[12.743s] INFO:colcon.colcon_core.shell:Creating package script '/app/puppy_ws/install/puppy_brain/share/puppy_brain/package.zsh'
+[12.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/puppy_ws/install/puppy_brain/share/colcon-core/packages/puppy_brain)
+[12.755s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.757s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.758s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.758s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.802s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[12.803s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.804s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.805s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.840s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.843s] INFO:colcon.colcon_core.shell:Creating prefix script '/app/puppy_ws/install/local_setup.ps1'
+[12.856s] INFO:colcon.colcon_core.shell:Creating prefix util module '/app/puppy_ws/install/_local_setup_util_ps1.py'
+[12.871s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/app/puppy_ws/install/setup.ps1'
+[12.885s] INFO:colcon.colcon_core.shell:Creating prefix script '/app/puppy_ws/install/local_setup.sh'
+[12.889s] INFO:colcon.colcon_core.shell:Creating prefix util module '/app/puppy_ws/install/_local_setup_util_sh.py'
+[12.894s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/app/puppy_ws/install/setup.sh'
+[12.903s] INFO:colcon.colcon_core.shell:Creating prefix script '/app/puppy_ws/install/local_setup.bash'
+[12.908s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/app/puppy_ws/install/setup.bash'
+[12.920s] INFO:colcon.colcon_core.shell:Creating prefix script '/app/puppy_ws/install/local_setup.zsh'
+[12.925s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/app/puppy_ws/install/setup.zsh'

@@ -1,0 +1,46 @@
+[4.230s] Invoking command in '/app/puppy_ws/src/puppy_brain': PYTHONPATH=/app/puppy_ws/build/puppy_brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/puppy_brain build --build-base /app/puppy_ws/build/puppy_brain/build install --record /app/puppy_ws/build/puppy_brain/install.log --single-version-externally-managed install_data
+[5.158s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[5.159s]   warnings.warn(msg)
+[5.677s] running egg_info
+[5.761s] writing ../../build/puppy_brain/puppy_brain.egg-info/PKG-INFO
+[5.763s] writing dependency_links to ../../build/puppy_brain/puppy_brain.egg-info/dependency_links.txt
+[5.765s] writing entry points to ../../build/puppy_brain/puppy_brain.egg-info/entry_points.txt
+[5.766s] writing requirements to ../../build/puppy_brain/puppy_brain.egg-info/requires.txt
+[5.767s] writing top-level names to ../../build/puppy_brain/puppy_brain.egg-info/top_level.txt
+[5.947s] reading manifest file '../../build/puppy_brain/puppy_brain.egg-info/SOURCES.txt'
+[5.960s] writing manifest file '../../build/puppy_brain/puppy_brain.egg-info/SOURCES.txt'
+[5.961s] running build
+[5.962s] running build_py
+[5.963s] copying puppy_brain/gesture_adapter_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+[5.968s] copying puppy_brain/decision_node_gesture_test.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+[5.970s] copying puppy_brain/ros_udp_bridge.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+[5.972s] copying puppy_brain/debug_preview_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+[5.974s] copying puppy_brain/ai_vision_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+[5.976s] copying puppy_brain/perception_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+[5.979s] copying puppy_brain/__init__.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+[5.980s] copying puppy_brain/decision_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+[5.983s] running install
+[6.016s] running install_lib
+[6.102s] copying /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain/decision_node.py -> /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain
+[6.106s] byte-compiling /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain/decision_node.py to decision_node.cpython-310.pyc
+[6.119s] Sorry: IndentationError: expected an indented block after 'if' statement on line 264 (decision_node.py, line 265)
+[6.120s] running install_data
+[6.121s] copying resource/puppy_brain -> /app/puppy_ws/install/puppy_brain/share/ament_index/resource_index/packages
+[6.122s] copying package.xml -> /app/puppy_ws/install/puppy_brain/share/puppy_brain
+[6.124s] copying launch/follow_only.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch
+[6.128s] copying launch/gesture_only.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch
+[6.129s] copying launch/full_system.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch
+[6.131s] copying launch/gesture_control_test.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch
+[6.133s] copying launch/gesture_official_test.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch
+[6.134s] running install_egg_info
+[6.225s] removing '/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain-0.0.0-py3.10.egg-info' (and everything under it)
+[6.227s] Copying ../../build/puppy_brain/puppy_brain.egg-info to /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain-0.0.0-py3.10.egg-info
+[6.234s] running install_scripts
+[6.412s] Installing debug_preview_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[6.413s] Installing decision_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[6.414s] Installing decision_node_gesture_test script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[6.414s] Installing gesture_adapter_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[6.415s] Installing perception_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[6.416s] Installing ros_udp_bridge script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[6.419s] writing list of installed files to '/app/puppy_ws/build/puppy_brain/install.log'
+[6.629s] Invoked command in '/app/puppy_ws/src/puppy_brain' returned '0': PYTHONPATH=/app/puppy_ws/build/puppy_brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/puppy_brain build --build-base /app/puppy_ws/build/puppy_brain/build install --record /app/puppy_ws/build/puppy_brain/install.log --single-version-externally-managed install_data

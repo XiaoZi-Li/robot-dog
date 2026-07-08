@@ -1,0 +1,290 @@
+[1.016s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/local/bin/colcon', 'build', '--packages-select', 'puppy_brain'][0m
+[1.017s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['puppy_brain'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff885b6ce0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff885b6710>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff885b6710>>)[0m
+[1.382s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[1.383s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[1.383s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[1.383s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[1.383s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[1.384s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[1.384s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/app/puppy_ws'
+[1.385s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.385s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[1.386s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[1.386s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[1.386s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[1.386s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[1.387s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[1.387s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[1.387s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[1.495s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[1.496s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[1.496s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[1.497s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[1.497s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[1.498s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.499s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[1.499s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[1.500s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[1.500s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'ignore'
+[1.501s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'ignore_ament_install'
+[1.501s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extensions ['colcon_pkg']
+[1.501s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'colcon_pkg'
+[1.502s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extensions ['colcon_meta']
+[1.502s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'colcon_meta'
+[1.502s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extensions ['ros']
+[1.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'ros'
+[1.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extensions ['cmake', 'python']
+[1.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'cmake'
+[1.504s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'python'
+[1.504s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extensions ['python_setup_py']
+[1.504s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'python_setup_py'
+[1.505s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.505s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[1.505s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[1.506s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.507s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[1.507s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[1.508s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extensions ['ignore', 'ignore_ament_install']
+[1.508s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extension 'ignore'
+[1.508s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extension 'ignore_ament_install'
+[1.509s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extensions ['colcon_pkg']
+[1.509s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extension 'colcon_pkg'
+[1.509s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extensions ['colcon_meta']
+[1.510s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extension 'colcon_meta'
+[1.510s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extensions ['ros']
+[1.510s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extension 'ros'
+[1.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extensions ['cmake', 'python']
+[1.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extension 'cmake'
+[1.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extension 'python'
+[1.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extensions ['python_setup_py']
+[1.512s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extension 'python_setup_py'
+[1.512s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws) by extensions ['ignore', 'ignore_ament_install']
+[1.513s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws) by extension 'ignore'
+[1.513s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws) by extension 'ignore_ament_install'
+[1.514s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws) by extensions ['colcon_pkg']
+[1.514s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws) by extension 'colcon_pkg'
+[1.514s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws) by extensions ['colcon_meta']
+[1.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws) by extension 'colcon_meta'
+[1.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws) by extensions ['ros']
+[1.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws) by extension 'ros'
+[1.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws) by extensions ['cmake', 'python']
+[1.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws) by extension 'cmake'
+[1.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws) by extension 'python'
+[1.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws) by extensions ['python_setup_py']
+[1.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws) by extension 'python_setup_py'
+[1.518s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20) by extensions ['ignore', 'ignore_ament_install']
+[1.518s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20) by extension 'ignore'
+[1.519s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20) by extension 'ignore_ament_install'
+[1.519s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20) by extensions ['colcon_pkg']
+[1.520s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20) by extension 'colcon_pkg'
+[1.520s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20) by extensions ['colcon_meta']
+[1.520s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20) by extension 'colcon_meta'
+[1.520s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20) by extensions ['ros']
+[1.521s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20) by extension 'ros'
+[1.521s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20) by extensions ['cmake', 'python']
+[1.521s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20) by extension 'cmake'
+[1.522s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20) by extension 'python'
+[1.522s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20) by extensions ['python_setup_py']
+[1.522s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20) by extension 'python_setup_py'
+[1.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20/test_wavs) by extensions ['ignore', 'ignore_ament_install']
+[1.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20/test_wavs) by extension 'ignore'
+[1.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20/test_wavs) by extension 'ignore_ament_install'
+[1.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20/test_wavs) by extensions ['colcon_pkg']
+[1.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20/test_wavs) by extension 'colcon_pkg'
+[1.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20/test_wavs) by extensions ['colcon_meta']
+[1.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20/test_wavs) by extension 'colcon_meta'
+[1.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20/test_wavs) by extensions ['ros']
+[1.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20/test_wavs) by extension 'ros'
+[1.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20/test_wavs) by extensions ['cmake', 'python']
+[1.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20/test_wavs) by extension 'cmake'
+[1.527s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20/test_wavs) by extension 'python'
+[1.527s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20/test_wavs) by extensions ['python_setup_py']
+[1.527s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/sherpa_kws/sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20/test_wavs) by extension 'python_setup_py'
+[1.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22) by extensions ['ignore', 'ignore_ament_install']
+[1.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22) by extension 'ignore'
+[1.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22) by extension 'ignore_ament_install'
+[1.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22) by extensions ['colcon_pkg']
+[1.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22) by extension 'colcon_pkg'
+[1.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22) by extensions ['colcon_meta']
+[1.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22) by extension 'colcon_meta'
+[1.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22) by extensions ['ros']
+[1.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22) by extension 'ros'
+[1.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22) by extensions ['cmake', 'python']
+[1.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22) by extension 'cmake'
+[1.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22) by extension 'python'
+[1.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22) by extensions ['python_setup_py']
+[1.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22) by extension 'python_setup_py'
+[1.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/am) by extensions ['ignore', 'ignore_ament_install']
+[1.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/am) by extension 'ignore'
+[1.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/am) by extension 'ignore_ament_install'
+[1.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/am) by extensions ['colcon_pkg']
+[1.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/am) by extension 'colcon_pkg'
+[1.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/am) by extensions ['colcon_meta']
+[1.535s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/am) by extension 'colcon_meta'
+[1.535s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/am) by extensions ['ros']
+[1.535s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/am) by extension 'ros'
+[1.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/am) by extensions ['cmake', 'python']
+[1.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/am) by extension 'cmake'
+[1.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/am) by extension 'python'
+[1.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/am) by extensions ['python_setup_py']
+[1.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/am) by extension 'python_setup_py'
+[1.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/conf) by extensions ['ignore', 'ignore_ament_install']
+[1.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/conf) by extension 'ignore'
+[1.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/conf) by extension 'ignore_ament_install'
+[1.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/conf) by extensions ['colcon_pkg']
+[1.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/conf) by extension 'colcon_pkg'
+[1.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/conf) by extensions ['colcon_meta']
+[1.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/conf) by extension 'colcon_meta'
+[1.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/conf) by extensions ['ros']
+[1.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/conf) by extension 'ros'
+[1.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/conf) by extensions ['cmake', 'python']
+[1.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/conf) by extension 'cmake'
+[1.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/conf) by extension 'python'
+[1.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/conf) by extensions ['python_setup_py']
+[1.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/conf) by extension 'python_setup_py'
+[1.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph) by extensions ['ignore', 'ignore_ament_install']
+[1.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph) by extension 'ignore'
+[1.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph) by extension 'ignore_ament_install'
+[1.544s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph) by extensions ['colcon_pkg']
+[1.544s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph) by extension 'colcon_pkg'
+[1.544s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph) by extensions ['colcon_meta']
+[1.544s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph) by extension 'colcon_meta'
+[1.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph) by extensions ['ros']
+[1.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph) by extension 'ros'
+[1.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph) by extensions ['cmake', 'python']
+[1.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph) by extension 'cmake'
+[1.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph) by extension 'python'
+[1.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph) by extensions ['python_setup_py']
+[1.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph) by extension 'python_setup_py'
+[1.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph/phones) by extensions ['ignore', 'ignore_ament_install']
+[1.548s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph/phones) by extension 'ignore'
+[1.548s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph/phones) by extension 'ignore_ament_install'
+[1.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph/phones) by extensions ['colcon_pkg']
+[1.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph/phones) by extension 'colcon_pkg'
+[1.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph/phones) by extensions ['colcon_meta']
+[1.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph/phones) by extension 'colcon_meta'
+[1.550s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph/phones) by extensions ['ros']
+[1.550s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph/phones) by extension 'ros'
+[1.551s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph/phones) by extensions ['cmake', 'python']
+[1.551s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph/phones) by extension 'cmake'
+[1.551s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph/phones) by extension 'python'
+[1.551s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph/phones) by extensions ['python_setup_py']
+[1.552s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/graph/phones) by extension 'python_setup_py'
+[1.552s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/ivector) by extensions ['ignore', 'ignore_ament_install']
+[1.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/ivector) by extension 'ignore'
+[1.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/ivector) by extension 'ignore_ament_install'
+[1.554s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/ivector) by extensions ['colcon_pkg']
+[1.554s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/ivector) by extension 'colcon_pkg'
+[1.554s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/ivector) by extensions ['colcon_meta']
+[1.554s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/ivector) by extension 'colcon_meta'
+[1.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/ivector) by extensions ['ros']
+[1.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/ivector) by extension 'ros'
+[1.556s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/ivector) by extensions ['cmake', 'python']
+[1.556s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/ivector) by extension 'cmake'
+[1.556s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/ivector) by extension 'python'
+[1.556s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/ivector) by extensions ['python_setup_py']
+[1.557s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models/vosk-model-small-cn-0.22/ivector) by extension 'python_setup_py'
+[1.557s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.558s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[1.558s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[1.559s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[1.559s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[1.559s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[1.559s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[1.560s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[1.560s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[1.561s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[1.561s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[1.561s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[1.561s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[1.562s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[1.562s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/puppy_brain) by extensions ['ignore', 'ignore_ament_install']
+[1.563s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/puppy_brain) by extension 'ignore'
+[1.563s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/puppy_brain) by extension 'ignore_ament_install'
+[1.563s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/puppy_brain) by extensions ['colcon_pkg']
+[1.564s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/puppy_brain) by extension 'colcon_pkg'
+[1.564s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/puppy_brain) by extensions ['colcon_meta']
+[1.564s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/puppy_brain) by extension 'colcon_meta'
+[1.564s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/puppy_brain) by extensions ['ros']
+[1.565s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/puppy_brain) by extension 'ros'
+[1.582s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/puppy_brain' with type 'ros.ament_python' and name 'puppy_brain'[0m
+[1.583s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extensions ['ignore', 'ignore_ament_install']
+[1.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'ignore'
+[1.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'ignore_ament_install'
+[1.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extensions ['colcon_pkg']
+[1.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'colcon_pkg'
+[1.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extensions ['colcon_meta']
+[1.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'colcon_meta'
+[1.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extensions ['ros']
+[1.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'ros'
+[1.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extensions ['cmake', 'python']
+[1.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'cmake'
+[1.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'python'
+[1.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extensions ['python_setup_py']
+[1.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'python_setup_py'
+[1.588s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[1.588s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[1.588s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[1.588s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[1.589s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[1.697s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'puppy_brain' build argument 'cmake_args' from command line to 'None'
+[1.697s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'puppy_brain' build argument 'cmake_target' from command line to 'None'
+[1.698s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'puppy_brain' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.698s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'puppy_brain' build argument 'cmake_clean_cache' from command line to 'False'
+[1.698s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'puppy_brain' build argument 'cmake_clean_first' from command line to 'False'
+[1.698s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'puppy_brain' build argument 'cmake_force_configure' from command line to 'False'
+[1.699s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'puppy_brain' build argument 'ament_cmake_args' from command line to 'None'
+[1.699s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'puppy_brain' build argument 'catkin_cmake_args' from command line to 'None'
+[1.699s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'puppy_brain' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.699s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'puppy_brain' with the following arguments: {'ament_cmake_args': None, 'build_base': '/app/puppy_ws/build/puppy_brain', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/app/puppy_ws/install/puppy_brain', 'merge_install': False, 'path': '/app/puppy_ws/src/puppy_brain', 'symlink_install': False, 'test_result_base': None}[0m
+[1.700s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[1.706s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[1.708s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/app/puppy_ws/src/puppy_brain' with build type 'ament_python'
+[1.709s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('puppy_brain', 'ament_prefix_path')
+[1.722s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.723s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/app/puppy_ws/install/puppy_brain/share/puppy_brain/hook/ament_prefix_path.ps1'
+[1.727s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/app/puppy_ws/install/puppy_brain/share/puppy_brain/hook/ament_prefix_path.dsv'
+[1.730s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/app/puppy_ws/install/puppy_brain/share/puppy_brain/hook/ament_prefix_path.sh'
+[1.736s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.736s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[3.285s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/app/puppy_ws/src/puppy_brain'
+[3.286s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.287s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[6.918s] [34mcolcon.colcon_core.task.python.build[0m [1;30mDEBUG[0m [32mAvailable setuptools commands: isort, compile_catalog, sdist, build_py, install_lib, setopt, check, bdist_egg, extract_messages, alias, init_catalog, install_scripts, egg_info, build_clib, easy_install, rotate, bdist, symlink_data, update_catalog, develop, editable_wheel, saveopts, install_egg_info, bdist_dumb, bdist_rpm, install, clean, dist_info, build_scripts, bdist_wheel, build, install_data, install_headers, build_ext[0m
+[6.924s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/app/puppy_ws/build/puppy_brain': CONDA_PROMPT_MODIFIER=(puppy) PYTHONPATH=/app/puppy_ws/build/puppy_brain/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /app/puppy_ws/build/puppy_brain/build[0m
+[10.762s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/app/puppy_ws/build/puppy_brain' returned '0': CONDA_PROMPT_MODIFIER=(puppy) PYTHONPATH=/app/puppy_ws/build/puppy_brain/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /app/puppy_ws/build/puppy_brain/build[0m
+[10.776s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/app/puppy_ws/src/puppy_brain': CONDA_PROMPT_MODIFIER=(puppy) PYTHONPATH=/app/puppy_ws/build/puppy_brain/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/puppy_brain build --build-base /app/puppy_ws/build/puppy_brain/build install --record /app/puppy_ws/build/puppy_brain/install.log --install-scripts $base/lib/puppy_brain --single-version-externally-managed install_data --force[0m
+[14.697s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/app/puppy_ws/src/puppy_brain' returned '0': CONDA_PROMPT_MODIFIER=(puppy) PYTHONPATH=/app/puppy_ws/build/puppy_brain/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/puppy_brain build --build-base /app/puppy_ws/build/puppy_brain/build install --record /app/puppy_ws/build/puppy_brain/install.log --install-scripts $base/lib/puppy_brain --single-version-externally-managed install_data --force[0m
+[14.712s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/app/puppy_ws/install/puppy_brain' for CMake module files
+[14.717s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/app/puppy_ws/install/puppy_brain' for CMake config files
+[14.721s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/app/puppy_ws/install/puppy_brain/lib'
+[14.722s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/app/puppy_ws/install/puppy_brain/bin'
+[14.723s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/app/puppy_ws/install/puppy_brain/lib/pkgconfig/puppy_brain.pc'
+[14.725s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages'
+[14.725s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('puppy_brain', 'pythonpath')
+[14.727s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/app/puppy_ws/install/puppy_brain/share/puppy_brain/hook/pythonpath.ps1'
+[14.732s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/app/puppy_ws/install/puppy_brain/share/puppy_brain/hook/pythonpath.dsv'
+[14.735s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/app/puppy_ws/install/puppy_brain/share/puppy_brain/hook/pythonpath.sh'
+[14.740s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/app/puppy_ws/install/puppy_brain/bin'
+[14.741s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(puppy_brain)
+[14.743s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/app/puppy_ws/install/puppy_brain/share/puppy_brain/package.ps1'
+[14.751s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/app/puppy_ws/install/puppy_brain/share/puppy_brain/package.dsv'
+[14.756s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/app/puppy_ws/install/puppy_brain/share/puppy_brain/package.sh'
+[14.762s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/app/puppy_ws/install/puppy_brain/share/puppy_brain/package.bash'
+[14.768s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/app/puppy_ws/install/puppy_brain/share/puppy_brain/package.zsh'
+[14.773s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/app/puppy_ws/install/puppy_brain/share/colcon-core/packages/puppy_brain)
+[14.775s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[14.777s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[14.778s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[14.778s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[14.782s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[14.784s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/app/puppy_ws/install/local_setup.ps1'
+[14.790s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/app/puppy_ws/install/_local_setup_util_ps1.py'
+[14.801s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/app/puppy_ws/install/setup.ps1'
+[14.809s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/app/puppy_ws/install/local_setup.sh'
+[14.814s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/app/puppy_ws/install/_local_setup_util_sh.py'
+[14.819s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/app/puppy_ws/install/setup.sh'
+[14.826s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/app/puppy_ws/install/local_setup.bash'
+[14.831s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/app/puppy_ws/install/setup.bash'
+[14.838s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/app/puppy_ws/install/local_setup.zsh'
+[14.842s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/app/puppy_ws/install/setup.zsh'

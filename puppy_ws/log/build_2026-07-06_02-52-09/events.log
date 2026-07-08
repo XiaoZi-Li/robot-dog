@@ -1,0 +1,288 @@
+[0.000000] (-) TimerEvent: {}
+[0.002659] (puppy_brain) JobQueued: {'identifier': 'puppy_brain', 'dependencies': OrderedDict()}
+[0.014208] (puppy_brain) JobStarted: {'identifier': 'puppy_brain'}
+[0.096031] (-) TimerEvent: {}
+[0.198343] (-) TimerEvent: {}
+[0.298912] (-) TimerEvent: {}
+[0.399391] (-) TimerEvent: {}
+[0.500123] (-) TimerEvent: {}
+[0.601578] (-) TimerEvent: {}
+[0.702220] (-) TimerEvent: {}
+[0.802997] (-) TimerEvent: {}
+[0.904249] (-) TimerEvent: {}
+[1.006622] (-) TimerEvent: {}
+[1.107251] (-) TimerEvent: {}
+[1.208233] (-) TimerEvent: {}
+[1.309358] (-) TimerEvent: {}
+[1.410261] (-) TimerEvent: {}
+[1.511059] (-) TimerEvent: {}
+[1.612171] (-) TimerEvent: {}
+[1.713187] (-) TimerEvent: {}
+[1.813800] (-) TimerEvent: {}
+[1.914326] (-) TimerEvent: {}
+[2.014840] (-) TimerEvent: {}
+[2.115369] (-) TimerEvent: {}
+[2.215881] (-) TimerEvent: {}
+[2.316782] (-) TimerEvent: {}
+[2.417862] (-) TimerEvent: {}
+[2.518421] (-) TimerEvent: {}
+[2.619192] (-) TimerEvent: {}
+[2.720065] (-) TimerEvent: {}
+[2.820736] (-) TimerEvent: {}
+[2.921317] (-) TimerEvent: {}
+[3.021871] (-) TimerEvent: {}
+[3.123212] (-) TimerEvent: {}
+[3.223872] (-) TimerEvent: {}
+[3.327030] (-) TimerEvent: {}
+[3.427645] (-) TimerEvent: {}
+[3.528236] (-) TimerEvent: {}
+[3.628784] (-) TimerEvent: {}
+[3.729445] (-) TimerEvent: {}
+[3.830159] (-) TimerEvent: {}
+[3.930951] (-) TimerEvent: {}
+[4.031504] (-) TimerEvent: {}
+[4.134388] (-) TimerEvent: {}
+[4.234991] (-) TimerEvent: {}
+[4.335636] (-) TimerEvent: {}
+[4.436307] (-) TimerEvent: {}
+[4.537142] (-) TimerEvent: {}
+[4.637949] (-) TimerEvent: {}
+[4.738587] (-) TimerEvent: {}
+[4.839206] (-) TimerEvent: {}
+[4.939905] (-) TimerEvent: {}
+[5.041115] (-) TimerEvent: {}
+[5.141752] (-) TimerEvent: {}
+[5.242420] (-) TimerEvent: {}
+[5.347644] (-) TimerEvent: {}
+[5.448734] (-) TimerEvent: {}
+[5.550904] (-) TimerEvent: {}
+[5.651632] (-) TimerEvent: {}
+[5.752351] (-) TimerEvent: {}
+[5.854343] (-) TimerEvent: {}
+[5.955055] (-) TimerEvent: {}
+[6.056574] (-) TimerEvent: {}
+[6.157384] (-) TimerEvent: {}
+[6.258184] (-) TimerEvent: {}
+[6.359008] (-) TimerEvent: {}
+[6.460347] (-) TimerEvent: {}
+[6.561325] (-) TimerEvent: {}
+[6.662432] (-) TimerEvent: {}
+[6.763374] (-) TimerEvent: {}
+[6.863976] (-) TimerEvent: {}
+[6.965027] (-) TimerEvent: {}
+[7.066372] (-) TimerEvent: {}
+[7.166957] (-) TimerEvent: {}
+[7.267577] (-) TimerEvent: {}
+[7.368277] (-) TimerEvent: {}
+[7.469076] (-) TimerEvent: {}
+[7.569684] (-) TimerEvent: {}
+[7.672452] (-) TimerEvent: {}
+[7.773130] (-) TimerEvent: {}
+[7.876125] (-) TimerEvent: {}
+[7.976765] (-) TimerEvent: {}
+[8.077436] (-) TimerEvent: {}
+[8.178473] (-) TimerEvent: {}
+[8.279250] (-) TimerEvent: {}
+[8.380038] (-) TimerEvent: {}
+[8.480664] (-) TimerEvent: {}
+[8.581656] (-) TimerEvent: {}
+[8.682413] (-) TimerEvent: {}
+[8.782929] (-) TimerEvent: {}
+[8.883841] (-) TimerEvent: {}
+[8.986859] (-) TimerEvent: {}
+[9.087571] (-) TimerEvent: {}
+[9.188161] (-) TimerEvent: {}
+[9.288911] (-) TimerEvent: {}
+[9.389473] (-) TimerEvent: {}
+[9.490038] (-) TimerEvent: {}
+[9.590689] (-) TimerEvent: {}
+[9.691345] (-) TimerEvent: {}
+[9.792019] (-) TimerEvent: {}
+[9.892634] (-) TimerEvent: {}
+[9.993337] (-) TimerEvent: {}
+[10.094169] (-) TimerEvent: {}
+[10.195132] (-) TimerEvent: {}
+[10.296205] (-) TimerEvent: {}
+[10.396992] (-) TimerEvent: {}
+[10.498171] (-) TimerEvent: {}
+[10.599798] (-) TimerEvent: {}
+[10.700816] (-) TimerEvent: {}
+[10.801534] (-) TimerEvent: {}
+[10.902204] (-) TimerEvent: {}
+[11.004301] (-) TimerEvent: {}
+[11.104873] (-) TimerEvent: {}
+[11.205392] (-) TimerEvent: {}
+[11.305960] (-) TimerEvent: {}
+[11.406898] (-) TimerEvent: {}
+[11.507691] (-) TimerEvent: {}
+[11.609611] (-) TimerEvent: {}
+[11.710274] (-) TimerEvent: {}
+[11.810891] (-) TimerEvent: {}
+[11.911528] (-) TimerEvent: {}
+[12.012115] (-) TimerEvent: {}
+[12.112740] (-) TimerEvent: {}
+[12.213234] (-) TimerEvent: {}
+[12.313865] (-) TimerEvent: {}
+[12.414513] (-) TimerEvent: {}
+[12.515106] (-) TimerEvent: {}
+[12.615660] (-) TimerEvent: {}
+[12.716406] (-) TimerEvent: {}
+[12.817080] (-) TimerEvent: {}
+[12.919696] (-) TimerEvent: {}
+[13.020326] (-) TimerEvent: {}
+[13.120935] (-) TimerEvent: {}
+[13.222102] (-) TimerEvent: {}
+[13.322642] (-) TimerEvent: {}
+[13.423216] (-) TimerEvent: {}
+[13.523717] (-) TimerEvent: {}
+[13.624247] (-) TimerEvent: {}
+[13.724861] (-) TimerEvent: {}
+[13.825464] (-) TimerEvent: {}
+[13.926008] (-) TimerEvent: {}
+[14.026551] (-) TimerEvent: {}
+[14.127339] (-) TimerEvent: {}
+[14.227833] (-) TimerEvent: {}
+[14.328409] (-) TimerEvent: {}
+[14.429201] (-) TimerEvent: {}
+[14.530181] (-) TimerEvent: {}
+[14.633281] (-) TimerEvent: {}
+[14.733837] (-) TimerEvent: {}
+[14.834383] (-) TimerEvent: {}
+[14.935331] (-) TimerEvent: {}
+[15.035941] (-) TimerEvent: {}
+[15.136524] (-) TimerEvent: {}
+[15.173467] (puppy_brain) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/app/puppy_ws/build/puppy_brain/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/app/puppy_ws/build/puppy_brain', 'env': {'CONDA_PROMPT_MODIFIER': '(puppy)', 'LANGUAGE': 'zh_CN:zh', 'USER': 'root', 'SSH_CLIENT': '192.168.1.3 54543 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'CONDA_SHLVL': '2', 'OLDPWD': '/root', 'NVM_NODEJS_ORG_MIRROR': 'https://npmmirror.com/mirrors/node', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', '_CE_M': '', '_CONDA_ROOT': '/root/anaconda3', 'NVM_DIR': '/root/.nvm', 'DEBUGINFOD_URLS': '', 'TROS_DISTRO': 'humble', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '57', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/humble/bin:/opt/ros/humble/bin:/root/.local/bin:/usr/bin:/root/.npm-global/bin:/root/.local/bin:/root/anaconda3/envs/puppy/bin:/root/anaconda3/condabin:/usr/hobot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'DISPLAY': 'localhost:10.0', 'LANG': 'zh_CN.UTF-8', 'CONDA_PREFIX_1': '/root/anaconda3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/tros/humble:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/root/anaconda3/bin/python', 'SHELL': '/bin/bash', 'CONDA_DEFAULT_ENV': 'puppy', '_CONDA_EXE': '/root/anaconda3/bin/conda', 'PWD': '/app/puppy_ws/build/puppy_brain', 'CONDA_EXE': '/root/anaconda3/bin/conda', 'SSH_CONNECTION': '192.168.1.3 54543 192.168.1.4 22', 'NVM_CD_FLAGS': '', 'PYTHONPATH': '/app/puppy_ws/build/puppy_brain/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'CONDA_PREFIX': '/root/anaconda3/envs/puppy', 'COLCON': '1', 'NVM_RC_VERSION': ''}, 'shell': False}
+[15.236808] (-) TimerEvent: {}
+[15.337509] (-) TimerEvent: {}
+[15.438284] (-) TimerEvent: {}
+[15.538845] (-) TimerEvent: {}
+[15.639375] (-) TimerEvent: {}
+[15.739906] (-) TimerEvent: {}
+[15.840485] (-) TimerEvent: {}
+[15.941040] (-) TimerEvent: {}
+[16.043869] (-) TimerEvent: {}
+[16.144396] (-) TimerEvent: {}
+[16.244962] (-) TimerEvent: {}
+[16.346014] (-) TimerEvent: {}
+[16.446718] (-) TimerEvent: {}
+[16.547352] (-) TimerEvent: {}
+[16.648079] (-) TimerEvent: {}
+[16.749592] (-) TimerEvent: {}
+[16.850298] (-) TimerEvent: {}
+[16.951025] (-) TimerEvent: {}
+[16.977795] (puppy_brain) StderrLine: {'line': b"/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[16.979205] (puppy_brain) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[17.051263] (-) TimerEvent: {}
+[17.152012] (-) TimerEvent: {}
+[17.254653] (-) TimerEvent: {}
+[17.362618] (-) TimerEvent: {}
+[17.463274] (-) TimerEvent: {}
+[17.563808] (-) TimerEvent: {}
+[17.664543] (-) TimerEvent: {}
+[17.765309] (-) TimerEvent: {}
+[17.865907] (-) TimerEvent: {}
+[17.966423] (-) TimerEvent: {}
+[18.068338] (-) TimerEvent: {}
+[18.169024] (-) TimerEvent: {}
+[18.270130] (-) TimerEvent: {}
+[18.372667] (-) TimerEvent: {}
+[18.473563] (-) TimerEvent: {}
+[18.574753] (-) TimerEvent: {}
+[18.676164] (-) TimerEvent: {}
+[18.777031] (-) TimerEvent: {}
+[18.877719] (-) TimerEvent: {}
+[18.978305] (-) TimerEvent: {}
+[19.078880] (-) TimerEvent: {}
+[19.180092] (-) TimerEvent: {}
+[19.281009] (-) TimerEvent: {}
+[19.381731] (-) TimerEvent: {}
+[19.482433] (-) TimerEvent: {}
+[19.503370] (puppy_brain) StdoutLine: {'line': b'running develop\n'}
+[19.582753] (-) TimerEvent: {}
+[19.683962] (-) TimerEvent: {}
+[19.785746] (-) TimerEvent: {}
+[19.886528] (-) TimerEvent: {}
+[19.987293] (-) TimerEvent: {}
+[20.088730] (-) TimerEvent: {}
+[20.189430] (-) TimerEvent: {}
+[20.292612] (-) TimerEvent: {}
+[20.393227] (-) TimerEvent: {}
+[20.493804] (-) TimerEvent: {}
+[20.594327] (-) TimerEvent: {}
+[20.694961] (-) TimerEvent: {}
+[20.795483] (-) TimerEvent: {}
+[20.896008] (-) TimerEvent: {}
+[20.996507] (-) TimerEvent: {}
+[21.097573] (-) TimerEvent: {}
+[21.198305] (-) TimerEvent: {}
+[21.298982] (-) TimerEvent: {}
+[21.399715] (-) TimerEvent: {}
+[21.500505] (-) TimerEvent: {}
+[21.601079] (-) TimerEvent: {}
+[21.701805] (-) TimerEvent: {}
+[21.802519] (-) TimerEvent: {}
+[21.903307] (-) TimerEvent: {}
+[22.003974] (-) TimerEvent: {}
+[22.106172] (-) TimerEvent: {}
+[22.206940] (-) TimerEvent: {}
+[22.309094] (-) TimerEvent: {}
+[22.409775] (-) TimerEvent: {}
+[22.510455] (-) TimerEvent: {}
+[22.612040] (-) TimerEvent: {}
+[22.713141] (-) TimerEvent: {}
+[22.813812] (-) TimerEvent: {}
+[22.914390] (-) TimerEvent: {}
+[22.933623] (puppy_brain) StdoutLine: {'line': b'running egg_info\n'}
+[23.016154] (-) TimerEvent: {}
+[23.117200] (-) TimerEvent: {}
+[23.186061] (puppy_brain) StdoutLine: {'line': b'writing puppy_brain.egg-info/PKG-INFO\n'}
+[23.188025] (puppy_brain) StdoutLine: {'line': b'writing dependency_links to puppy_brain.egg-info/dependency_links.txt\n'}
+[23.190265] (puppy_brain) StdoutLine: {'line': b'writing entry points to puppy_brain.egg-info/entry_points.txt\n'}
+[23.192037] (puppy_brain) StdoutLine: {'line': b'writing requirements to puppy_brain.egg-info/requires.txt\n'}
+[23.193581] (puppy_brain) StdoutLine: {'line': b'writing top-level names to puppy_brain.egg-info/top_level.txt\n'}
+[23.217408] (-) TimerEvent: {}
+[23.317899] (-) TimerEvent: {}
+[23.418479] (-) TimerEvent: {}
+[23.518974] (-) TimerEvent: {}
+[23.619683] (-) TimerEvent: {}
+[23.720507] (-) TimerEvent: {}
+[23.726575] (puppy_brain) StdoutLine: {'line': b"reading manifest file 'puppy_brain.egg-info/SOURCES.txt'\n"}
+[23.743017] (puppy_brain) StdoutLine: {'line': b"writing manifest file 'puppy_brain.egg-info/SOURCES.txt'\n"}
+[23.820645] (-) TimerEvent: {}
+[23.921154] (-) TimerEvent: {}
+[24.017980] (puppy_brain) StdoutLine: {'line': b'running build_ext\n'}
+[24.020017] (puppy_brain) StdoutLine: {'line': b'Creating /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy-brain.egg-link (link to .)\n'}
+[24.021335] (-) TimerEvent: {}
+[24.028277] (puppy_brain) StdoutLine: {'line': b'Installing chat_llm_bridge_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain\n'}
+[24.029803] (puppy_brain) StdoutLine: {'line': b'Installing debug_preview_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain\n'}
+[24.031708] (puppy_brain) StdoutLine: {'line': b'Installing decision_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain\n'}
+[24.033165] (puppy_brain) StdoutLine: {'line': b'Installing decision_node_gesture_test script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain\n'}
+[24.035676] (puppy_brain) StdoutLine: {'line': b'Installing gesture_adapter_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain\n'}
+[24.036547] (puppy_brain) StdoutLine: {'line': b'Installing imu_node_ros2 script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain\n'}
+[24.038984] (puppy_brain) StdoutLine: {'line': b'Installing intent_router_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain\n'}
+[24.040857] (puppy_brain) StdoutLine: {'line': b'Installing perception_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain\n'}
+[24.041780] (puppy_brain) StdoutLine: {'line': b'Installing ros_udp_bridge script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain\n'}
+[24.044194] (puppy_brain) StdoutLine: {'line': b'Installing tts_play_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain\n'}
+[24.045307] (puppy_brain) StdoutLine: {'line': b'Installing usb_asr_text_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain\n'}
+[24.047371] (puppy_brain) StdoutLine: {'line': b'Installing voice_control_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain\n'}
+[24.049346] (puppy_brain) StdoutLine: {'line': b'Installing ws_bridge_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain\n'}
+[24.052208] (puppy_brain) StdoutLine: {'line': b'\n'}
+[24.053995] (puppy_brain) StdoutLine: {'line': b'Installed /app/puppy_ws/build/puppy_brain\n'}
+[24.054866] (puppy_brain) StdoutLine: {'line': b'running symlink_data\n'}
+[24.057617] (puppy_brain) StdoutLine: {'line': b'symbolically linking /app/puppy_ws/build/puppy_brain/resource/puppy_brain -> /app/puppy_ws/install/puppy_brain/share/ament_index/resource_index/packages\n'}
+[24.061226] (puppy_brain) StdoutLine: {'line': b'symbolically linking /app/puppy_ws/build/puppy_brain/package.xml -> /app/puppy_ws/install/puppy_brain/share/puppy_brain\n'}
+[24.065947] (puppy_brain) StdoutLine: {'line': b'symbolically linking /app/puppy_ws/build/puppy_brain/launch/follow_only.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch\n'}
+[24.068640] (puppy_brain) StdoutLine: {'line': b'symbolically linking /app/puppy_ws/build/puppy_brain/launch/full_system.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch\n'}
+[24.070201] (puppy_brain) StdoutLine: {'line': b'symbolically linking /app/puppy_ws/build/puppy_brain/launch/gesture_only.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch\n'}
+[24.071137] (puppy_brain) StdoutLine: {'line': b'symbolically linking /app/puppy_ws/build/puppy_brain/launch/gesture_official_test.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch\n'}
+[24.072440] (puppy_brain) StdoutLine: {'line': b'symbolically linking /app/puppy_ws/build/puppy_brain/launch/gesture_control_test.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch\n'}
+[24.124206] (-) TimerEvent: {}
+[24.225013] (-) TimerEvent: {}
+[24.325685] (-) TimerEvent: {}
+[24.426320] (-) TimerEvent: {}
+[24.528585] (-) TimerEvent: {}
+[24.545676] (puppy_brain) CommandEnded: {'returncode': 0}
+[24.629054] (-) TimerEvent: {}
+[24.731862] (-) TimerEvent: {}
+[24.751325] (puppy_brain) JobEnded: {'identifier': 'puppy_brain', 'rc': 0}
+[24.758634] (-) EventReactorShutdown: {}

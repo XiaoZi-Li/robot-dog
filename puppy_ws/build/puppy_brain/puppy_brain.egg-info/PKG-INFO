@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: puppy_brain
+Version: 0.0.0
+Summary: Puppy brain package
+Maintainer: rdk
+Maintainer-email: rdk@todo.todo
+License: TODO: License declaration
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

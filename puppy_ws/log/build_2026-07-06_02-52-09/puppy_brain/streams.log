@@ -1,0 +1,38 @@
+[15.171s] Invoking command in '/app/puppy_ws/build/puppy_brain': CONDA_PROMPT_MODIFIER=(puppy) PYTHONPATH=/app/puppy_ws/build/puppy_brain/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /app/puppy_ws/build/puppy_brain/build --no-deps symlink_data --force
+[16.964s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[16.965s]   warnings.warn(msg)
+[19.489s] running develop
+[22.919s] running egg_info
+[23.172s] writing puppy_brain.egg-info/PKG-INFO
+[23.174s] writing dependency_links to puppy_brain.egg-info/dependency_links.txt
+[23.176s] writing entry points to puppy_brain.egg-info/entry_points.txt
+[23.178s] writing requirements to puppy_brain.egg-info/requires.txt
+[23.179s] writing top-level names to puppy_brain.egg-info/top_level.txt
+[23.713s] reading manifest file 'puppy_brain.egg-info/SOURCES.txt'
+[23.729s] writing manifest file 'puppy_brain.egg-info/SOURCES.txt'
+[24.004s] running build_ext
+[24.006s] Creating /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy-brain.egg-link (link to .)
+[24.014s] Installing chat_llm_bridge_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[24.016s] Installing debug_preview_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[24.017s] Installing decision_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[24.019s] Installing decision_node_gesture_test script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[24.021s] Installing gesture_adapter_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[24.024s] Installing imu_node_ros2 script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[24.026s] Installing intent_router_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[24.027s] Installing perception_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[24.027s] Installing ros_udp_bridge script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[24.030s] Installing tts_play_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[24.032s] Installing usb_asr_text_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[24.034s] Installing voice_control_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[24.036s] Installing ws_bridge_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+[24.038s] 
+[24.040s] Installed /app/puppy_ws/build/puppy_brain
+[24.042s] running symlink_data
+[24.046s] symbolically linking /app/puppy_ws/build/puppy_brain/resource/puppy_brain -> /app/puppy_ws/install/puppy_brain/share/ament_index/resource_index/packages
+[24.050s] symbolically linking /app/puppy_ws/build/puppy_brain/package.xml -> /app/puppy_ws/install/puppy_brain/share/puppy_brain
+[24.053s] symbolically linking /app/puppy_ws/build/puppy_brain/launch/follow_only.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch
+[24.055s] symbolically linking /app/puppy_ws/build/puppy_brain/launch/full_system.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch
+[24.056s] symbolically linking /app/puppy_ws/build/puppy_brain/launch/gesture_only.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch
+[24.057s] symbolically linking /app/puppy_ws/build/puppy_brain/launch/gesture_official_test.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch
+[24.058s] symbolically linking /app/puppy_ws/build/puppy_brain/launch/gesture_control_test.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch
+[24.532s] Invoked command in '/app/puppy_ws/build/puppy_brain' returned '0': CONDA_PROMPT_MODIFIER=(puppy) PYTHONPATH=/app/puppy_ws/build/puppy_brain/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /app/puppy_ws/build/puppy_brain/build --no-deps symlink_data --force

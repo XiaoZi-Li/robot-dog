@@ -1,0 +1,18 @@
+[console_scripts]
+chat_llm_bridge_node = puppy_brain.chat_llm_bridge_node:main
+cloud_llm_node = puppy_brain.cloud_llm_node:main
+debug_preview_node = puppy_brain.debug_preview_node:main
+decision_node = puppy_brain.decision_node:main
+decision_node_gesture_test = puppy_brain.decision_node_gesture_test:main
+gesture_action_node = puppy_brain.gesture_action_node:main
+gesture_adapter_node = puppy_brain.gesture_adapter_node:main
+imu_node_ros2 = puppy_brain.imu_node_ros2:main
+intent_router_node = puppy_brain.intent_router_node:main
+perception_node = puppy_brain.perception_node:main
+ros_udp_bridge = puppy_brain.ros_udp_bridge:main
+tts_play_node = puppy_brain.tts_play_node:main
+usb_asr_text_node = puppy_brain.usb_asr_text_node:main
+usb_cam_publisher_node = puppy_brain.usb_cam_publisher_node:main
+voice_control_node = puppy_brain.voice_control_node:main
+ws_bridge_node = puppy_brain.ws_bridge_node:main
+yolov5_mjpeg_server = puppy_brain.yolov5_mjpeg_server:main

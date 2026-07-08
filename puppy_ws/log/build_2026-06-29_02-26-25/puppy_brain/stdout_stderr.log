@@ -1,0 +1,45 @@
+/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/puppy_brain/puppy_brain.egg-info/PKG-INFO
+writing dependency_links to ../../build/puppy_brain/puppy_brain.egg-info/dependency_links.txt
+writing entry points to ../../build/puppy_brain/puppy_brain.egg-info/entry_points.txt
+writing requirements to ../../build/puppy_brain/puppy_brain.egg-info/requires.txt
+writing top-level names to ../../build/puppy_brain/puppy_brain.egg-info/top_level.txt
+reading manifest file '../../build/puppy_brain/puppy_brain.egg-info/SOURCES.txt'
+writing manifest file '../../build/puppy_brain/puppy_brain.egg-info/SOURCES.txt'
+running build
+running build_py
+copying puppy_brain/intent_router_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+copying puppy_brain/tts_play_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+copying puppy_brain/decision_node_详细注释版.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+copying puppy_brain/decision_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+running install
+running install_lib
+copying /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain/intent_router_node.py -> /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain
+copying /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain/tts_play_node.py -> /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain
+copying /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain/decision_node_详细注释版.py -> /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain
+copying /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain/decision_node.py -> /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain
+byte-compiling /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain/intent_router_node.py to intent_router_node.cpython-310.pyc
+byte-compiling /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain/tts_play_node.py to tts_play_node.cpython-310.pyc
+byte-compiling /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain/decision_node_详细注释版.py to decision_node_详细注释版.cpython-310.pyc
+byte-compiling /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain/decision_node.py to decision_node.cpython-310.pyc
+running install_data
+copying launch/full_system.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch
+running install_egg_info
+removing '/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/puppy_brain/puppy_brain.egg-info to /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain-0.0.0-py3.10.egg-info
+running install_scripts
+Installing chat_llm_bridge_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+Installing debug_preview_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+Installing decision_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+Installing decision_node_gesture_test script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+Installing gesture_adapter_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+Installing imu_node_ros2 script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+Installing intent_router_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+Installing perception_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+Installing ros_udp_bridge script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+Installing tts_play_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+Installing usb_asr_text_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+Installing voice_control_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+writing list of installed files to '/app/puppy_ws/build/puppy_brain/install.log'

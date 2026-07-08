@@ -1,0 +1,44 @@
+running egg_info
+writing ../../build/puppy_brain/puppy_brain.egg-info/PKG-INFO
+writing dependency_links to ../../build/puppy_brain/puppy_brain.egg-info/dependency_links.txt
+writing entry points to ../../build/puppy_brain/puppy_brain.egg-info/entry_points.txt
+writing requirements to ../../build/puppy_brain/puppy_brain.egg-info/requires.txt
+writing top-level names to ../../build/puppy_brain/puppy_brain.egg-info/top_level.txt
+reading manifest file '../../build/puppy_brain/puppy_brain.egg-info/SOURCES.txt'
+writing manifest file '../../build/puppy_brain/puppy_brain.egg-info/SOURCES.txt'
+running build
+running build_py
+copying puppy_brain/gesture_adapter_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+copying puppy_brain/imu_node_ros2.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+copying puppy_brain/ros_udp_bridge.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+copying puppy_brain/debug_preview_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+copying puppy_brain/ai_vision_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+copying puppy_brain/perception_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+copying puppy_brain/__init__.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+copying puppy_brain/decision_node.py -> /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain
+running install
+running install_lib
+copying /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain/ros_udp_bridge.py -> /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain
+copying /app/puppy_ws/build/puppy_brain/build/lib/puppy_brain/decision_node.py -> /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain
+byte-compiling /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain/ros_udp_bridge.py to ros_udp_bridge.cpython-310.pyc
+byte-compiling /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain/decision_node.py to decision_node.cpython-310.pyc
+running install_data
+copying resource/puppy_brain -> /app/puppy_ws/install/puppy_brain/share/ament_index/resource_index/packages
+copying package.xml -> /app/puppy_ws/install/puppy_brain/share/puppy_brain
+copying launch/follow_only.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch
+copying launch/gesture_only.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch
+copying launch/full_system.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch
+copying launch/gesture_control_test.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch
+copying launch/gesture_official_test.launch.py -> /app/puppy_ws/install/puppy_brain/share/puppy_brain/launch
+running install_egg_info
+removing '/app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/puppy_brain/puppy_brain.egg-info to /app/puppy_ws/install/puppy_brain/lib/python3.10/site-packages/puppy_brain-0.0.0-py3.10.egg-info
+running install_scripts
+Installing debug_preview_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+Installing decision_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+Installing decision_node_gesture_test script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+Installing gesture_adapter_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+Installing imu_node_ros2 script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+Installing perception_node script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+Installing ros_udp_bridge script to /app/puppy_ws/install/puppy_brain/lib/puppy_brain
+writing list of installed files to '/app/puppy_ws/build/puppy_brain/install.log'
